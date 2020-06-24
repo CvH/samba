@@ -37,7 +37,7 @@ conf.CHECK_CODE('''
                 lib='iconv',
                 headers='errno.h iconv.h')
 
-if conf.CHECK_CFG(package='icu-i18n',
+if conf.CHECK_CFG(package='nope-icu-i18n',
                args='--cflags --libs',
                msg='Checking for icu-i18n',
                uselib_store='ICU_I18N'):
