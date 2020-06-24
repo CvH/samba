@@ -1,4 +1,4 @@
-/*
+
    Unix SMB/CIFS implementation.
    minimal iconv implementation
    Copyright (C) Andrew Tridgell 2001
@@ -27,11 +27,6 @@
 #include "lib/util/charset/charset_proto.h"
 #include "libcli/util/ntstatus.h"
 #include "lib/util/util_str_hex.h"
-
-#ifdef HAVE_ICU_I18N
-#include <unicode/ustring.h>
-#include <unicode/utrans.h>
-#endif
 
 #ifdef strcasecmp
 #undef strcasecmp
